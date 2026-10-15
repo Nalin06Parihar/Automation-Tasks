@@ -1,0 +1,34 @@
+# Python environments and caches used by PPTAutomation and SystemInform
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Python packaging and PyInstaller output
+build/
+dist/
+
+# ExcelToXMLAutomation generated output
+/ExcelToXMLAutomation/output/
+/ExcelToXMLAutomation/Employee.xml
+
+# Office temporary and lock files
+~$*.xls*
+~$*.ppt*
+
+# Local environment and temporary files
+.env
+.env.*
+!.env.example
+*.tmp
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
